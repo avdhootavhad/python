@@ -1,0 +1,52 @@
+# slicing in python
+#slicing syntax string[Start:end:steps]
+'''start: Starting index where the slicing of object starts.
+stop: Ending index where the slicing of object stops.
+step: It is an optional argument that determines the increment between each index for slicing'''
+
+a = "Avdhoot Avhad Avdhoot Avhad"
+# it will start at 0 index end at 25 and it will skip letter by 1 and print 2nd letter
+print(a[0:25:2])
+# it eill print letter from end and 2 nd position
+print(a[-2])
+#it will reverse string
+print(a[::-1])
+print(a[-1::-1])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
