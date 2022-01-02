@@ -1,0 +1,13 @@
+#Data types in python
+#1. List its ordered and mutable we can change the data or we can add element into that
+a = [5,6,4,7,]
+a.append(21)
+# set unordered and data will not change
+b = {1,2,3,4,5,6,}
+# tuple it is unordered and data will not change
+c =(1,2,3,4,5,6,)
+# Dictionary unordered and changable
+d = {"Name ": "Avdhoot","Age":"21","Branch":"Electrical"}
+d.update({"Name":"sujit"})
+print(a,b,c,d)
+# we can update the data in dictionary using update command and you can also  we can add element in list only
